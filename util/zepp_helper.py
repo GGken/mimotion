@@ -166,7 +166,7 @@ def check_app_token(app_token) -> (bool, str | None):
 
     params = {
         "r": "00b7912b-790a-4552-81b1-3742f9dd1e76",
-        "userid": "1188760659"
+        "userid": "1188760659",
         "appid": "428135909242707968",
         "channel": "Normal",
         "country": "CN",
