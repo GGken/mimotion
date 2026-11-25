@@ -125,7 +125,7 @@ class MiMotionRunner:
             if self.device_id is None:
                 self.device_id = str(uuid.uuid4())
                 user_token_info["device_id"] = self.device_id
-            ok, msg = zeppHelper.check_app_token(app_token, self.user_id)
+            ok, msg = zeppHelper.check_app_token(app_token)
             if ok:
                 self.log_str += "使用加密保存的app_token\n"
                 return app_token
